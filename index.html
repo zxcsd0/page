@@ -103,7 +103,7 @@
         connectWebSocket();
 
         function connectWebSocket() {
-            ws = new WebSocket('ws://218.39.116.63:8765');
+            ws = new WebSocket('ws://localhost:8765');
             
             ws.onopen = () => {
                 console.log('WebSocket 연결이 설정되었습니다.');
